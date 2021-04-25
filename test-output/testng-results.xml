@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-20T16:40:15 IST" name="Suite" finished-at="2021-04-20T16:40:42 IST" duration-ms="26668">
+    <groups>
+    </groups>
+    <test started-at="2021-04-20T16:40:15 IST" name="Test API" finished-at="2021-04-20T16:40:31 IST" duration-ms="16144">
+      <class name="lloydsTesting.tcs.apiTest">
+        <test-method signature="apiTesting()[pri:0, instance:lloydsTesting.tcs.apiTest@5536379e]" started-at="2021-04-20T16:40:15 IST" name="apiTesting" finished-at="2021-04-20T16:40:31 IST" duration-ms="16081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiTesting -->
+      </class> <!-- lloydsTesting.tcs.apiTest -->
+    </test> <!-- Test API -->
+    <test started-at="2021-04-20T16:40:15 IST" name="Test Appium" finished-at="2021-04-20T16:40:33 IST" duration-ms="17749">
+      <class name="lloydsTesting.tcs.Appiumtest">
+        <test-method signature="appiumTesting()[pri:0, instance:lloydsTesting.tcs.Appiumtest@1c55f277]" started-at="2021-04-20T16:40:15 IST" name="appiumTesting" finished-at="2021-04-20T16:40:33 IST" duration-ms="17691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appiumTesting -->
+      </class> <!-- lloydsTesting.tcs.Appiumtest -->
+    </test> <!-- Test Appium -->
+    <test started-at="2021-04-20T16:40:15 IST" name="Test Selenium" finished-at="2021-04-20T16:40:42 IST" duration-ms="26668">
+      <class name="lloydsTesting.tcs.Seleniumtest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:lloydsTesting.tcs.Seleniumtest@6b5894c8]" started-at="2021-04-20T16:40:15 IST" name="initialize" finished-at="2021-04-20T16:40:15 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="stat()[pri:0, instance:lloydsTesting.tcs.Seleniumtest@6b5894c8]" started-at="2021-04-20T16:40:15 IST" name="stat" finished-at="2021-04-20T16:40:22 IST" duration-ms="6320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stat -->
+        <test-method signature="webTesting(java.lang.String, java.lang.String)[pri:0, instance:lloydsTesting.tcs.Seleniumtest@6b5894c8]" started-at="2021-04-20T16:40:22 IST" name="webTesting" data-provider="getdata" finished-at="2021-04-20T16:40:27 IST" duration-ms="5011" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Asda@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at lloydsTesting.tcs.Seleniumtest.webTesting(Seleniumtest.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTesting -->
+        <test-method is-config="true" signature="closesBrowser()[pri:0, instance:lloydsTesting.tcs.Seleniumtest@6b5894c8]" started-at="2021-04-20T16:40:42 IST" name="closesBrowser" finished-at="2021-04-20T16:40:42 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesBrowser -->
+        <test-method is-config="true" signature="TestEnd()[pri:0, instance:lloydsTesting.tcs.Seleniumtest@6b5894c8]" started-at="2021-04-20T16:40:42 IST" name="TestEnd" finished-at="2021-04-20T16:40:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestEnd -->
+      </class> <!-- lloydsTesting.tcs.Seleniumtest -->
+    </test> <!-- Test Selenium -->
+  </suite> <!-- Suite -->
+</testng-results>

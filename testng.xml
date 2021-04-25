@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests"> <!--parallel="tests"-->
+   <listeners>
+  <listener class-name="utility.Listeners"/>
+  </listeners>
+  
+  <test name="Test Selenium"> 
+    <classes>
+      <class name="lloydsTesting.tcs.Seleniumtest"/>      
+    </classes>
+  </test> <!-- Test -->
+   <test name="Test API">
+    <classes>     
+      <class name="lloydsTesting.tcs.apiTest"/>     
+    </classes>
+  </test> <!-- Test -->
+   <test name="Test Appium">
+    <classes>      
+      <class name="lloydsTesting.tcs.Appiumtest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,7 @@
+16:40:24.851 [TestNG-tests-2] INFO  lloydsTesting.tcs.Appiumtest - Driver is 
+16:40:24.864 [TestNG-tests-2] INFO  lloydsTesting.tcs.Appiumtest - Driver is Initialized
+16:40:26.489 [TestNG-tests-1] INFO  lloydsTesting.tcs.Seleniumtest - URL launched
+16:40:26.693 [TestNG-tests-3] ERROR lloydsTesting.tcs.Appiumtest - Driver is Initialized
+16:40:26.694 [TestNG-tests-3] INFO  lloydsTesting.tcs.Appiumtest - Driver 
+16:40:26.694 [TestNG-tests-3] INFO  lloydsTesting.tcs.Appiumtest - Driver is 
+16:40:26.694 [TestNG-tests-3] INFO  lloydsTesting.tcs.Appiumtest - Driver is Initialized
